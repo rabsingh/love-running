@@ -32,7 +32,7 @@ header {
 }
 
 header a {
-    text-direction: none;
+    text-decoration: none;
     color: inherit;
 }
 
@@ -45,11 +45,11 @@ h1{
 
 #menu {
     font-size: 110%;
-    word-spacing: 4px;
+    letter-spacing: 4px;
     list-style-type: none;
 }
 
-menu > li {
+#menu > li {
     margin-bottom: 1em;
 }
 
@@ -91,7 +91,7 @@ main {
 }
 
 /* Footer */
-#social-network {
+#social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -114,14 +114,14 @@ main {
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1 rem;
+        padding-right: 1rem;
     }
 
     #menu {
         display: flex;
     }
     
-    menu > li {
+    #menu > li {
         padding-left: 1rem;
     }
 
